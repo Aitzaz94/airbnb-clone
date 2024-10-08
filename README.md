@@ -29,3 +29,5 @@ AirBnB Clone
 command: rails new airbnb -T -d postgresql
 
 Re-Visited MVC Architecture
+
+rails g controller home index
