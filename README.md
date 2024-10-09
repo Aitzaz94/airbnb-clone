@@ -33,3 +33,7 @@ Re-Visited MVC Architecture
 rails g controller home index
 
 tailwindcss integration learning and implementation through: https://tailwindcss.com/docs/guides/ruby-on-rails
+
+added favicon
+
+added navbar and customizations according to requirement
