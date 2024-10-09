@@ -31,3 +31,5 @@ command: rails new airbnb -T -d postgresql
 Re-Visited MVC Architecture
 
 rails g controller home index
+
+tailwindcss integration learning and implementation through: https://tailwindcss.com/docs/guides/ruby-on-rails
