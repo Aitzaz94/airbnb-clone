@@ -36,4 +36,8 @@ tailwindcss integration learning and implementation through: https://tailwindcss
 
 added favicon
 
-added navbar and customizations according to requirement
+added navbar and customization according to requirement
+
+Added Devise gem for authentication
+
+generated model user, devise views
