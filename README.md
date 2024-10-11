@@ -28,7 +28,7 @@ AirBnB Clone
 
 command: rails new airbnb -T -d postgresql
 
-Re-Visited MVC Architecture
+Re-Visited MVC Architecture 
 
 rails g controller home index
 
@@ -41,3 +41,13 @@ added navbar and customization according to requirement
 Added Devise gem for authentication
 
 generated model user, devise views
+
+adding stimulus controllers, adding data controller, data action, target
+
+added el-transition to add some action and animation to a button in the header
+
+using importmap for npm transition
+
+ran ./bin/importmap  --> list all importmap actions
+
+pinning el-transtion by using ./bin/importmap pin
