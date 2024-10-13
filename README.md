@@ -55,3 +55,7 @@ pinning el-transtion by using ./bin/importmap pin
 added devise actions like, signup, signin, signout on home page and make svg of airbnb clickable to navigate to the root path
 
 updated view code for devise sign up page
+
+added controller check in application.html in layout folder to restrict navbar display in signin and signup page
+
+updated view code for devise sign in page   
