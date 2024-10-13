@@ -59,3 +59,9 @@ updated view code for devise sign up page
 added controller check in application.html in layout folder to restrict navbar display in signin and signup page
 
 updated view code for devise sign in page   
+
+creating properties list on homepage with dummy data by using Faker gem
+
+added border to navbar header
+
+added look alike homepage view on index page
