@@ -7,3 +7,35 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Property.create!({
+  name: 'Mughal Heights',
+  description: 'located in the city of gardens',
+  headline: 'a property with heritage value',
+  address_1: 'Inside Delhi Gate Lahore',
+  address_2: 'Inside Chuna Mandi',
+  city: 'Lahore',
+  state: 'Punjab',
+  country: 'Pakistan'
+})
+
+Property.create!({
+  name: 'Mongol Heights',
+  description: 'located in the city of gardens',
+  headline: 'a property with heritage value',
+  address_1: 'Inside Delhi Gate Lahore',
+  address_2: 'Inside Chuna Mandi',
+  city: 'Lahore',
+  state: 'Punjab',
+  country: 'Pakistan'
+})
+
+Property.create!({
+  name: 'Mian Heights',
+  description: 'located in the city of gardens',
+  headline: 'a property with heritage value',
+  address_1: 'Inside Delhi Gate Lahore',
+  address_2: 'Inside Chuna Mandi',
+  city: 'Lahore',
+  state: 'Punjab',
+  country: 'Pakistan'
+})
