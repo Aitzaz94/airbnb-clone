@@ -35,6 +35,8 @@ gem "devise", "~> 4.9", ">= 4.9.4"
 
 gem "faker", "~> 3.4", ">= 3.4.2"
 
+gem "money-rails", "~> 1.15"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
