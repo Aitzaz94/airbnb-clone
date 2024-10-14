@@ -65,3 +65,15 @@ creating properties list on homepage with dummy data by using Faker gem
 added border to navbar header
 
 added look alike homepage view on index page
+
+generated property model migration
+
+property model in schema
+
+added validations to property model
+
+seed data for property model
+
+added property model logic for index
+
+calling all entered properties to display on index
