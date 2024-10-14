@@ -77,3 +77,7 @@ seed data for property model
 added property model logic for index
 
 calling all entered properties to display on index
+
+added faker gem
+
+updated seed file according to Faker Gem
