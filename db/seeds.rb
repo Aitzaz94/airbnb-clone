@@ -7,35 +7,16 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-Property.create!({
-  name: 'Mughal Heights',
-  description: 'located in the city of gardens',
-  headline: 'a property with heritage value',
-  address_1: 'Inside Delhi Gate Lahore',
-  address_2: 'Inside Chuna Mandi',
-  city: 'Lahore',
-  state: 'Punjab',
-  country: 'Pakistan'
-})
 
-Property.create!({
-  name: 'Mongol Heights',
-  description: 'located in the city of gardens',
-  headline: 'a property with heritage value',
-  address_1: 'Inside Delhi Gate Lahore',
-  address_2: 'Inside Chuna Mandi',
-  city: 'Lahore',
-  state: 'Punjab',
-  country: 'Pakistan'
-})
-
-Property.create!({
-  name: 'Mian Heights',
-  description: 'located in the city of gardens',
-  headline: 'a property with heritage value',
-  address_1: 'Inside Delhi Gate Lahore',
-  address_2: 'Inside Chuna Mandi',
-  city: 'Lahore',
-  state: 'Punjab',
-  country: 'Pakistan'
-})
+20.times do
+  Property.create!({
+    name: Faker::Lorem.unique.sentence(word_count: 3),
+    description: Faker::Lorem.paragraph(sentence_count: 10),
+    headline: Faker::Lorem.unique.sentence(word_count: 6),
+    address_1: Faker::Address.street_address,
+    address_2: Faker::Address.street_name,
+    city: Faker::Address.city,
+    state: Faker::Address.state,
+    country: Faker::Address.country
+  })
+end
