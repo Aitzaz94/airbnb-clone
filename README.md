@@ -81,3 +81,5 @@ calling all entered properties to display on index
 added faker gem
 
 updated seed file according to Faker Gem
+
+added money-rails gem, its practical utilization in the code
