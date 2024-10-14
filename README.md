@@ -83,3 +83,5 @@ added faker gem
 updated seed file according to Faker Gem
 
 added money-rails gem, its practical utilization in the code
+
+added images to each listed property
