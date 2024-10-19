@@ -89,3 +89,5 @@ added images to each listed property
 added swiper js
 
 added reviews to a property by users whereas a property has many reviews given by many users while a review blongs to a propert, user
+
+added counter cache, avg rating
