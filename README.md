@@ -99,3 +99,5 @@ added wishlist icon, swiper arrows
 JS controller for toggling swiper icon/button
 
 added precompile rake command for assets
+
+added wishlist action
