@@ -100,4 +100,16 @@ JS controller for toggling swiper icon/button
 
 added precompile rake command for assets
 
-added wishlist action
+added wishlist view/action
+
+wishlist migration created, references to user and property
+
+wishlist table added with proper foreign keys/indexes
+
+wishlist model created for user and property
+
+added wishlist many-many association
+
+added wishlist api routes
+
+wishlist API module, controller added for API actions - create, delete
