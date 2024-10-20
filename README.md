@@ -91,3 +91,11 @@ added swiper js
 added reviews to a property by users whereas a property has many reviews given by many users while a review blongs to a propert, user
 
 added counter cache, avg rating
+
+added swiper for images on index
+
+added wishlist icon, swiper arrows
+
+JS controller for toggling swiper icon/button
+
+added precompile rake command for assets
