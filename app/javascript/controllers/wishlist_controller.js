@@ -50,7 +50,7 @@ export default class extends Controller {
     })
     .then(data => {
       console.log(data);
-
+      this.element.dataset.wishlistId = data.id;
       this.element.classList.remove("fill-none");
       this.element.classList.add("fill-primary");
       this.element.dataset.status = "true";
@@ -65,16 +65,7 @@ export default class extends Controller {
       method: 'DELETE',
     })
     .then(response => {
-
-      if (!response.ok) {
-        // throw Error(response.status);
-        console.log(response.status);
-      }
-      return response.json();
-    })
-    .then(data => {
-      console.log(data);
-
+      this.element.dataset.wishlistId = '';
       this.element.classList.remove("fill-primary");
       this.element.classList.add("fill-none");
       this.element.dataset.status = "false";
