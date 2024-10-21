@@ -113,3 +113,9 @@ added wishlist many-many association
 added wishlist api routes
 
 wishlist API module, controller added for API actions - create, delete
+
+change through-relation to plural, added wishlisted user check method to property model
+
+change through-relation to plural
+
+change through-relation to plural
