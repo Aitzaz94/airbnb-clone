@@ -119,3 +119,7 @@ change through-relation to plural, added wishlisted user check method to propert
 change through-relation to plural
 
 change through-relation to plural
+
+adding/ removing wishlist from the table using javascript controller
+
+assigning respective ids on home index erb
