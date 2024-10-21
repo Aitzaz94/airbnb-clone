@@ -123,3 +123,5 @@ change through-relation to plural
 adding/ removing wishlist from the table using javascript controller
 
 assigning respective ids on home index erb
+
+wishlist js/api controller code correction
