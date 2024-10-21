@@ -125,3 +125,11 @@ adding/ removing wishlist from the table using javascript controller
 assigning respective ids on home index erb
 
 wishlist js/api controller code correction
+
+created migration for reservations
+
+migrated the table with index added for user, property, checkin/ checkout date
+
+added validation for checkin/checkout date in reservation model
+
+added many-many relationship with redervations using through for reservatioins by individual source of user and property
