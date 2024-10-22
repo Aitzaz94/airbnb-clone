@@ -139,3 +139,11 @@ added scoped queries for upcoming/ current reservations
 method in property model, for evaluating reservation dates cases
 
 updated date display for availability of property on index
+
+added properties route/ resources in route.rb
+
+created properties controller, for show method implementation
+
+added link_to for each property in the loop using accurate path for show
+
+added show erb with dummy code
