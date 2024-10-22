@@ -133,3 +133,9 @@ migrated the table with index added for user, property, checkin/ checkout date
 added validation for checkin/checkout date in reservation model
 
 added many-many relationship with redervations using through for reservatioins by individual source of user and property
+
+added scoped queries for upcoming/ current reservations
+
+method in property model, for evaluating reservation dates cases
+
+updated date display for availability of property on index
