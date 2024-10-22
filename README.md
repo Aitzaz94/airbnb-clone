@@ -147,3 +147,5 @@ created properties controller, for show method implementation
 added link_to for each property in the loop using accurate path for show
 
 added show erb with dummy code
+
+modified property show page with share/ save button, few changes according to view on airbnb
