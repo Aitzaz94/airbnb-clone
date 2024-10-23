@@ -155,3 +155,11 @@ updated wishlist-js controller for index page and individual property page by ad
 adjusted property images view for better display in show/ properties folder
 
 updated seed file for adding more images to each property
+
+created migration for adding columns to properties table i.e guest_count, bedroom_count, bed_count, bathroom_count
+
+updated schema for properties table added columns
+
+updated seed file for added fields to property
+
+added fields display to a property show page for added data in those columns
