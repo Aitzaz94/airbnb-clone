@@ -151,3 +151,7 @@ added show erb with dummy code
 modified property show page with share/ save button, few changes according to view on airbnb
 
 updated wishlist-js controller for index page and individual property page by adding/managing targets
+
+adjusted property images view for better display in show/ properties folder
+
+updated seed file for adding more images to each property
